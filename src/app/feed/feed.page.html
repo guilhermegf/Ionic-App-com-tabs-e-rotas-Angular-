@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Feed</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/images/mr-profile2.png">
+      </ion-avatar>
+      <h2 class="feed_title">{{nomeUsuario}}</h2>
+      <p class="feed_date">November 5, 1955</p>
+    </ion-item>
+
+    <img src="assets/images/Blueberry.png">
+
+    <ion-card-content>
+      <p>Estou criando um App incrível</p>
+      <button ion-button (click)="goToTabsPage()" icon-start large round color="dark">
+          <ion-icon name="star"></ion-icon>
+          clike me m8
+        </button>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center>
+        <ion-note>
+          11h ago
+        </ion-note>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+</ion-content>
