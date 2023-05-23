@@ -6,3 +6,6 @@ contém várias tabs e rotas
 npm install
 ionic serve
 
+Licença
+Este projeto está licenciado sob a licença Creative Commons Attribution 4.0 International.
+
